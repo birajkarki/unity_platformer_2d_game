@@ -30,4 +30,4 @@ public class ArrowTrap : MonoBehaviour
         if (cooldownTimer >= attackCooldown)
             Attack();
     }
-}
+}   
