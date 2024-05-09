@@ -7,6 +7,8 @@ public class ArrowTrap : MonoBehaviour
     [SerializeField] private GameObject[] arrows;
     private float cooldownTimer;
 
+    // private float ene
+
     private void Attack()
     {
         cooldownTimer = 0;
@@ -30,4 +32,4 @@ public class ArrowTrap : MonoBehaviour
         if (cooldownTimer >= attackCooldown)
             Attack();
     }
-}   
+}
